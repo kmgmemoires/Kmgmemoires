@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* 🌐 Style général du corps */
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -520,43 +519,37 @@ section img {
 
 }
 .bienvenue-kmg {
-  background-color: rgba(255, 255, 255, 0.85); /* fond blanc semi-transparent */
-  color: #1c1c2e; /* texte foncé */
-  padding: 15px 25px;
-  border-radius: 10px;
-  display: inline-block;
-  font-size: 2.2em;
+  background-color: #002147; /* bleu présidentiel */
+  color: white;              /* texte blanc bien lisible */
+  font-size: 2.5em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 1;
+  padding: 25px;
+  margin: 0;
+  border-bottom: 3px solid #d4af37; /* ligne dorée en bas */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ombre subtile */
 }
 .titre-catalogue {
-  background-color: rgba(255, 255, 255, 0.85);
-  color: #1c1c2e;
-  padding: 15px 25px;
-  border-radius: 10px;
-  display: inline-block;
+  background-color: #002147; /* bleu présidentiel */
+  color: white;              /* texte blanc bien lisible */
   font-size: 2.2em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 1;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 3px solid #d4af37; /* ligne dorée en bas */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ombre légère */
 }
 .titre-contact {
-  background-color: rgba(255, 255, 255, 0.85); /* fond blanc semi-transparent */
-  color: #1c1c2e; /* texte foncé */
-  padding: 15px 25px;
-  border-radius: 10px;
-  display: inline-block;
+  background-color: #002147; /* bleu présidentiel */
+  color: white;              /* texte blanc bien lisible */
   font-size: 2.2em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 1;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 3px solid #d4af37; /* ligne dorée en bas */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ombre légère */
 }
 @keyframes fadeInUp {
   from {
@@ -569,536 +562,48 @@ section img {
   }
 }
 .titre-commande {
-  background-color: rgba(255, 255, 255, 0.85); /* fond blanc semi-transparent */
-  color: #1c1c2e; /* texte foncé */
-  padding: 15px 25px;
-  border-radius: 10px;
-  display: inline-block;
+  background-color: #002147; /* bleu présidentiel */
+  color: white;              /* texte blanc bien lisible */
   font-size: 2.2em;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 1;
-  animation: fadeInUp 1s ease-out;
-=======
-/* 🌐 Style général du corps */
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
+  padding: 20px;
   margin: 0;
-  padding: 0;
-  background-image: url('images/fond_pedagogique.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  border-bottom: 3px solid #d4af37; /* ligne dorée en bas */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* ombre légère */
 }
-
-/* 🌄 Fond d’arrière-plan spécifique pour la page catalogue */
-body.catalogue {
-  position: relative;
-  z-index: 0;
-}
-
-.fond-catalogue {
-  background-image: url('images/fond_catalogue.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.85;
-}
-
-/* 🧭 Bandeau d’accueil */
-.bandeau {
-  background: linear-gradient(to right, #1c1c2e, #2e2e44);
-  color: white;
-  padding: 30px;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-.bandeau h2 {
-  margin-bottom: 10px;
+.catalogue h1 {
+  color: white; /* ou #f5f5f5 pour un gris foncé */
   font-size: 2em;
-  font-weight: bold;
-  color: #ffcc00;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
-}
-
-.bandeau p {
-  font-size: 1.1em;
-  opacity: 0.9;
-}
-
-/* 🧭 En-tête */
-header {
-  background-color: #1c1c2e;
-  color: white;
-  padding: 20px;
   text-align: center;
-}
-
-header img {
-  display: block;
-  margin: 0 auto 10px;
-  height: 80px;
-}
-
-/* 🧭 Menu de navigation */
-nav a {
-  color: #f0f0f0;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #ffcc00;
-}
-
-/* 📚 Section principale */
-section {
-  padding: 30px;
-  text-align: center;
-}
-
-h1, h2 {
-  color: #1c1c2e;
-}
-
-h3 {
-  font-size: 1.6em;
-  margin-top: 40px;
-  border-bottom: 2px solid #ffcc00;
-  padding-bottom: 5px;
-  text-align: left;
-  color: #1c1c2e;
-}
-
-h4 {
-  margin-top: 0;
-  color: #1c1c2e;
-}
-
-/* 📄 Fiches mémoire */
-.memoire {
-  background-color: #fdfdfd;
-  border-left: 5px solid #1c1c2e;
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px auto;
-  width: 85%;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  overflow: hidden;
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.memoire:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 15px rgba(0,0,0,0.15);
-}
-
-.memoire-icon {
-  float: left;
-  height: 60px;
-  margin-right: 15px;
-  border-radius: 8px;
-}
-
-.memoire p {
-  margin: 5px 0;
-}
-
-.memoire a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #1c1c2e;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.memoire a:hover {
-  color: #ffcc00;
-}
-
-/* 🖼 Images dans les sections */
-section img {
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  max-width: 100%;
-  height: auto;
   margin-top: 20px;
 }
-
-/* 📝 Bouton de commande */
-.btn-kmg {
-  background-color: #ffcc00;
-  color: #1c1c2e;
-  padding: 12px 25px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: background 0.3s ease;
-}
-
-.btn-kmg:hover {
-  background-color: #e6b800;
-}
-
-/* 🧭 Pied de page */
-footer {
-  background-color: #1c1c2e;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-/* 🌄 Fond d’arrière-plan spécifique pour la page catalogue */
-body.catalogue {
-  background-image: url('images/fond_catalogue.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-/* 📝 Page commander */
-body.commander {
-  background-color: #fdfdfd;
-  background-image: url('images/fond_pedagogique.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-.form-kmg {
-  background-color: rgba(255,255,255,0.95);
-  padding: 30px;
-  margin: 30px auto;
-  width: 80%;
-  max-width: 600px;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
-  text-align: left;
-}
-
-.form-kmg label {
-  display: block;
-  margin-top: 20px;
-  font-weight: bold;
-  color: #1c1c2e;
-}
-
-.form-kmg input,
-.form-kmg textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.whatsapp-link {
-  margin-top: 20px;
-  font-size: 1.1em;
-}
-
-.whatsapp-link a {
-  color: #25D366;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.whatsapp-link a:hover {
-  text-decoration: underline;
-}
-/* ✅ Message de confirmation */
-.confirmation-message {
-  display: none;
-  margin-top: 20px;
-  padding: 15px;
-  background-color: #e6ffe6;
-  border: 2px solid #25D366;
-  border-radius: 8px;
-  color: #1c1c2e;
-  font-weight: bold;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-/* ✨ Animation d’apparition douce */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* 🧾 Formulaire animé */
-.form-kmg {
-  animation: fadeInUp 1s ease-out;
-}
-
-/* ✅ Message de confirmation animé */
-.confirmation-message {
-  display: none;
-  animation: fadeInUp 0.8s ease-out;
-}
-
-/* 🎯 Bouton animé au survol */
-.btn-kmg {
-  transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.btn-kmg:hover {
-  background-color: #e6b800;
-  transform: scale(1.05);
-}
-/* 🎬 Animation de transition entre les pages */
-.fade-in {
-  animation: fadeIn 0.8s ease-in;
-}
-
-.fade-out {
-  animation: fadeOut 0.5s ease-out;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes fadeOut {
-  from { opacity: 1; transform: translateY(0); }
-  to { opacity: 0; transform: translateY(20px); }
-}
-/* 🎨 Style des blocs mémoire */
-.memoire {
-  background-color: #f9f9f9;
-  border-left: 5px solid #0077cc;
-  padding: 15px;
-  margin: 15px 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
-}
-
-.memoire:hover {
-  transform: scale(1.02);
-}
-
-/* 🖼 Icônes facultaires */
-.memoire-icon {
-  width: 60px;
-  height: auto;
-  float: left;
-  margin-right: 15px;
-  border-radius: 50%;
-  border: 2px solid #ccc;
-}
-
-/* 🧭 Titres de facultés */
-section h3 {
-  font-size: 1.6em;
-  color: #0077cc;
-  margin-top: 40px;
-  border-bottom: 2px solid #0077cc;
-  padding-bottom: 5px;
-}
-
-/* 📄 Liens vers les mémoires */
-.memoire a {
-  display: inline-block;
-  margin-top: 8px;
-  color: #0077cc;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #e6f2ff;
-  padding: 8px 12px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.memoire a:hover {
-  background-color: #cce4ff;
-}
-
-/* ✨ Animation d’entrée */
-.fade-in {
-  animation: fadeIn 0.6s ease-in forwards;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-/* 🌙 Dark mode styles */
-body.dark-mode {
-  background-color: #121212;
-  color: #f0f0f0;
-}
-
-.dark-mode .memoire {
-  background-color: #1e1e1e;
-  border-left-color: #00bcd4;
-}
-
-.dark-mode a {
-  color: #00bcd4;
-}
-
-.dark-mode .memoire a {
-  background-color: #263238;
-}
-
-.dark-mode .memoire a:hover {
-  background-color: #37474f;
-}
-
-/* Bouton Dark Mode */
 .dark-toggle {
   position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color: #0077cc;
+  top: 10px;
+  right: 10px;
+  background-color: #002147;
   color: white;
   border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1em;
   cursor: pointer;
-  font-weight: bold;
+  border-radius: 5px;
   z-index: 1000;
 }
 
 .dark-toggle:hover {
-  background-color: #005fa3;
+  background-color: #d4af37;
+  color: #002147;
 }
-/* 🏠 Bandeau d’accueil */
-.bandeau {
-  background-color: #0077cc;
+
+.dark-mode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.dark-mode header,
+.dark-mode footer {
+  background-color: #1a1a1a;
   color: white;
-  padding: 40px 20px;
-  text-align: center;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-.bandeau h2 {
-  font-size: 2.2em;
-  margin-bottom: 10px;
-}
-
-.bandeau p {
-  font-size: 1.2em;
-}
-
-/* 🖼 Illustration principale */
-section img {
-  display: block;
-  margin: 30px auto;
-  max-width: 300px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-}
-
-/* 🔗 Bouton commander */
-.btn-kmg {
-  display: inline-block;
-  background-color: #0077cc;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.btn-kmg:hover {
-  background-color: #005fa3;
-}
-.slogan-presidentiel {
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: bold;
-  margin-top: 20px;
-  color: #0077cc;
-}
-/* 🔗 Boutons d’accueil stylisés */
-.boutons-accueil {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin: 30px 0;
-}
-
-.btn-accueil {
-  background-color: #0077cc;
-  color: white;
-  padding: 12px 20px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.btn-accueil:hover {
-  background-color: #005fa3;
-  transform: scale(1.05);
-}
-/* 📱 Responsive mobile */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-    padding: 10px;
-  }
-
-  header, .bandeau, section, footer {
-    padding: 10px;
-    text-align: center;
-  }
-
-  nav {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .boutons-accueil {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .btn-accueil, .btn-kmg {
-    width: 90%;
-    text-align: center;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .dark-toggle {
-    top: 10px;
-    right: 10px;
-    padding: 8px;
-    font-size: 14px;
-  }
->>>>>>> 01bfb1e52998e2833af3802f4eff13ed08291537
 }
